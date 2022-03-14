@@ -2,7 +2,7 @@
 var express = require('express');
 const req = require('express/lib/request');
 var app = express();
-var mysql = require('liu_mysql')
+// var mysql = require('liu_mysql')
 app.set('views','views');
 app.set('view engine', 'hbs');
 app.use(express.static('public'));
